@@ -59,4 +59,21 @@
     height: auto;
     padding-bottom: 20px;
   }
+
+  .col-3 {
+    column-count: 1;
+  }
+}
+
+@media only screen and (700px) {
+  #navbar nav a {
+    display: none;
+  }
+  #navbar nav a.menu-icon {
+    display: block;
+    float: right;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    width: auto;
+  }
 }
